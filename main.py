@@ -538,7 +538,7 @@ def on_key_press(event):
             ax.axis("off")
 
             # Optionally load an image if you have one
-            qr_img = plt.imread("download.png")
+            qr_img = plt.imread("QRCode.png")
             ax.imshow(qr_img, aspect='equal', extent=(15, 25, 1, 11))
 
         fig.canvas.draw()
